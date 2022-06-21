@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    background-color: rgb(51, 48, 48);
+    font-family: System-ui;
+
+}
+
+p{
+    margin: 20px;
+    text-align: center;
+   font-weight: 800;
+   font-size: 40px;
+   color: aliceblue;
+
+}
+.sub{
+    font-weight: 600;
+   font-size: 30px;
+}
+
+.inputs{
+    width: 60%;
+    margin: auto; 
+}
+ input{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 15, 15);
+    height: 40px;
+    padding: 0 10px;
+    width: 100%;
+    margin: 3px 0;
+    font-size: medium;
+}
+ input:focus{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+.inputs .price input{
+    width: 20%;
+}
+#total{
+    border-radius: 4px;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: large;
+    font-weight: 600;
+}
+#total::before{
+    content: "total:";
+
+}
+
+#create,#searchByTitle,#searchByCategory,#deleteAll{
+    width: 100%;
+    border-radius: 25px;
+    height: 40px;
+    background-color: rgb(42, 4, 77);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    transition: 0.5s;
+}
+#create:hover{
+    background-color: rgb(19, 0, 36);
+    letter-spacing: 2px;
+}
+#searchByCategory:hover{
+    background-color: rgb(19, 0, 36);
+    letter-spacing: 2px;
+}
+#searchByTitle:hover{
+    background-color: rgb(19, 0, 36);
+    letter-spacing: 2px;
+}
+ #deleteAll:hover{
+    background-color: rgb(19, 0, 36);
+    letter-spacing: 2px;
+    
+}
+#deleteAll{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.classbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#searchByTitle,#searchByCategory{
+    width: 45%;
+
+}
+
+table{
+    margin-top: 15px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px;
+}
+table button{
+    width: 100%;
+    border-radius: 25px;
+    height: 40px;
+    background-color: rgb(139, 6, 6);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    transition: 0.5s;
+}
+table button:hover{
+    background-color: rgb(65, 1, 6);
+    letter-spacing: 0.5px;   
+}
+#update{
+    background-color: rgb(33, 11, 133);
+}
+#update:hover{
+    background-color: rgb(2, 2, 47);
+    
+}
+
